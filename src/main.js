@@ -4,6 +4,7 @@ import VueRouter from 'vue-router';
 import App from './App';
 import About from './components/About';
 import Contact from './components/Contact';
+import Quiz from './components/Quiz';
 
 /* eslint-disable no-new */
 
@@ -28,6 +29,9 @@ router.map({
   },
   '/contact': {
     component: Contact,
+  },
+  '/quiz': {
+    component: Quiz,
   },
 });
 router.redirect({
